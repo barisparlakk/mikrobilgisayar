@@ -1,0 +1,6 @@
+	LDS #$0051
+	LDAA #$44
+	LDAB #$23
+	PSHA
+	PSHB
+	LDX $50

@@ -1,0 +1,10 @@
+	LDS #$60
+	LDAB #16
+
+	LDAA #$50
+	PSHA
+	
+DONGU SUBA #$5
+	PSHA
+	DECB
+	BNE DONGU

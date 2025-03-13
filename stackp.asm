@@ -1,0 +1,6 @@
+	LDAB #4
+	PSHB
+	LDAA #3
+	PSHA
+	PULB
+	PULA
