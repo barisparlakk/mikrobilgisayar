@@ -1,0 +1,6 @@
+	LDAA #$24
+	STAA $20
+	LDAB #$18
+	STAB $30
+	SBA
+	STAA $40
