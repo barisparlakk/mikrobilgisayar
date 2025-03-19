@@ -1,0 +1,16 @@
+	LDAA #$21
+	LDX #$0100
+XX STAA $00,X
+	INCA
+	INX
+	CPX #$0110
+	BNE XX
+
+	LDX #$100
+YY LDAA $00,X
+	STAA $20,X
+	INX
+	CPX #$0120
+	BNE YY
+	 
+	END  
